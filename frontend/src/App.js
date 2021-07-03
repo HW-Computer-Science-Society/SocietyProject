@@ -14,7 +14,7 @@ function App() {
 
     try {
       const requestResponse = await Axios.post(
-        `http://localhost:5000/users/examplepost`, // URL
+        `${rootUrl}/users/examplepost`, // URL
         null, // Request Body
       );
 
@@ -29,7 +29,8 @@ function App() {
 
   //Use Effect: example request
   useEffect(() => {
-    requestResponse();
+    //requestResponse();
+    exampleRequest()
   }, []);
 
 
