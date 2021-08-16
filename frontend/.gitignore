@@ -2,14 +2,18 @@
 
 # dependencies
 /node_modules
+node_modules
+package-lock.json
 /.pnp
 .pnp.js
+.vscode
 
 # testing
 /coverage
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
